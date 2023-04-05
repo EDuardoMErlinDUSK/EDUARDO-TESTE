@@ -4,7 +4,7 @@ document.getElementById( "botao"). addEventListener( "click" , exibenome );
 
 function showcolor()
 {
-    document.body.style.backgroundColor = "red";
+    document.body.style.backgroundColor = "rainbow";
 }
 
 function exibenome()
