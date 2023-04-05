@@ -20,7 +20,7 @@ function exiberesultado()
 {
     let calculo1 = document.getElementById( "variavel1").value;
     let calculo2 = document.getElementById( "variavel2").value;
-    document.getElementById("botao2").innerHTML =  parseFloat(calculo1) + parseFloat(calculo2);
+    document.getElementById("resultado").innerHTML =  parseFloat(calculo1) + parseFloat(calculo2);
     document.getElementById( "variavel1").value = "";
     document.getElementById( "variavel2").value = "";
 }
