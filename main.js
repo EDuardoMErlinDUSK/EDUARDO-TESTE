@@ -18,10 +18,10 @@ function exibenome()
 
 function exiberesultado()
 {
-    let calculo1 = document.getElementById( "varialvel1").value;
-    let calculo2 = document.getElementById( "varialvel2").value;
+    let calculo1 = document.getElementById( "variavel1").value;
+    let calculo2 = document.getElementById( "variavel2").value;
     document.getElementById("botao2").innerHTML =  parseFloat(calculo1) + parseFloat(calculo2);
-    document.getElementById( "varialvel1").value = "";
-    document.getElementById( "varialvel2").value = "";
+    document.getElementById( "variavel1").value = "";
+    document.getElementById( "variavel2").value = "";
 }
 
