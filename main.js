@@ -1,7 +1,7 @@
 document.addEventListener( "click" , showcolor );
 
 document.getElementById( "botao"). addEventListener( "click" , exibenome );
-document.getElementById( "resultado"). addEventListener( "click" , exiberesultado);
+document.getElementById( "botao2"). addEventListener( "click" , exiberesultado);
 
 function showcolor()
 {
@@ -20,7 +20,7 @@ function exiberesultado()
 {
     let calculo1 = document.getElementById( "varialvel1").value;
     let calculo2 = document.getElementById( "varialvel2").value;
-    document.getElementById("resultado").innerHTML = calculo1 + calculo2;
+    document.getElementById("botao2").innerHTML =  parseFloat(calculo1) + parseFloat(calculo2);
     document.getElementById( "varialvel1").value = "";
     document.getElementById( "varialvel2").value = "";
 }
