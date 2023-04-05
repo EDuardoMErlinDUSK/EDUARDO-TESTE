@@ -1,6 +1,7 @@
 document.addEventListener( "click" , showcolor );
 
 document.getElementById( "botao"). addEventListener( "click" , exibenome );
+document.getElementById( "resultado"). addEventListener( "click" , exiberesultado);
 
 function showcolor()
 {
