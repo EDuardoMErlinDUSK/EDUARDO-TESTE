@@ -18,7 +18,8 @@ function exibenome()
 function exiberesultado()
 {
     let calculo = document.getElementById( "varialvel1").value;
-    document.getElementById("resultado").innerHTML = "" + value;
+    let calculo = document.getElementById( "varialvel2").value;
+    document.getElementById("resultado").innerHTML = value + value;
     document.getElementById( "nome").value = "";
 }
 
