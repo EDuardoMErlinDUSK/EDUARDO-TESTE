@@ -14,3 +14,11 @@ function exibenome()
     document.getElementById( "nome").value = "";
 }
 
+
+function exiberesultado()
+{
+    let calculo = document.getElementById( "varialvel1").value;
+    document.getElementById("mensagem").innerHTML = "meu nome e:" + usuario;
+    document.getElementById( "nome").value = "";
+}
+
