@@ -45,11 +45,11 @@ function exiberesultado2()
 
 function exiberesultado3()
 {
-    let calculo1 = document.getElementById( "variavel1").value;
-    let calculo2 = document.getElementById( "variavel2").value;
-    document.getElementById("resultado3").innerHTML =  parseFloat(calculo1) + parseFloat(calculo2);
-    document.getElementById( "variavel1").value = "";
-    document.getElementById( "variavel2").value = "";
+    let multiplica1 = document.getElementById( "multiplicar1").value;
+    let multiplica2 = document.getElementById( "multiplicar2").value;
+    document.getElementById("resultado3").innerHTML =  parseFloat( multiplica1) * parseFloat(multiplica2);
+    document.getElementById( "multiplicar1").value = "";
+    document.getElementById( "multiplicar2").value = "";
 }
 
 
@@ -57,10 +57,10 @@ function exiberesultado3()
 
 function exiberesultado4()
 {
-    let calculo1 = document.getElementById( "variavel1").value;
-    let calculo2 = document.getElementById( "variavel2").value;
-    document.getElementById("resultado4").innerHTML =  parseFloat(calculo1) + parseFloat(calculo2);
-    document.getElementById( "variavel1").value = "";
-    document.getElementById( "variavel2").value = "";
+    let subt1 = document.getElementById( "sub1").value;
+    let subt2 = document.getElementById( "sub2").value;
+    document.getElementById("resultado4").innerHTML =  parseFloat(subt1) - parseFloat(subt2);
+    document.getElementById( "sub1").value = "";
+    document.getElementById( "sub2").value = "";
 }
 
