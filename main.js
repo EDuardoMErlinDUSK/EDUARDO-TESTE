@@ -7,3 +7,8 @@ function showcolor()
     document.body.style.backgroundColor = "red";
 }
 
+function exibenome()
+{
+    let usuario = document.getElementById( "nome").value;
+}
+
